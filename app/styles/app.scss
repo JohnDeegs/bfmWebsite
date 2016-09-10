@@ -1,3 +1,12 @@
-p {
-  color: #777;
+$space-large: 2.5rem;
+$nav-color: #AA1111;
+$two-color: #EBEBEB;
+
+.top-bar {
+  background-color: $nav-color;
+}
+
+ul, li {
+  background-color: $nav-color;
+  color: $two-color;
 }
