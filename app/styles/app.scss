@@ -1,6 +1,7 @@
 $space-large: 2.5rem;
 $nav-color: #AA1111;
 $two-color: #EBEBEB;
+$centering: 0 auto;
 
 .top-bar {
   background-color: $nav-color;
@@ -9,4 +10,17 @@ $two-color: #EBEBEB;
 ul, li {
   background-color: $nav-color;
   color: $two-color;
+}
+
+button {
+  width: 70%;
+  margin: $centering;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: auto;
+  padding-bottom: 70px;
 }
